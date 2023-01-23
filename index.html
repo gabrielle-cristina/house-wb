@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIVIDADE FLEXBOX PARTE 1</title>
+    <style>
+        *{
+
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: rgb(255, 255, 255);
+        }
+
+        .container{ 
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+
+            width: 96%;
+        
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+
+            justify-content: center;
+            align-items:center;
+            flex-wrap: wrap;
+            background-color:rgb(255, 255, 255);
+            gap: 15px;
+            padding: 1.5vw;
+            border: 1px solid rgb(0, 0, 0);
+            
+
+
+        }
+
+        .box{
+            
+
+
+            display: flex;
+ 
+            border: 1px solid black;
+
+
+        
+
+        }
+
+        img{
+            width: 20vw;
+      
+                
+        }
+
+        .footer-container{
+            width: 98%;
+            position:absolute;
+            bottom: 0;
+            color: rgb(0, 0, 0);     
+            display: flex;
+            justify-content: center; 
+      
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box box-1">
+            <img src=".//1.png" alt="">
+        </div>
+        <div class="box box-2">
+            <img src=".//2.png" alt="">
+        </div>
+        <div class="box box-3">
+            <img src=".//3.png" alt="">
+        </div>
+        <div class="box box-4">
+            <img src=".//4.png" alt="">
+        </div>
+        <div class="box box-5">
+            <img src=".//5.png" alt="">
+        </div>
+        <div class="box box-6">
+            <img src=".//6.png" alt="">
+        </div>
+        <div class="box box-7">
+            <img src=".//7.png" alt="">
+        </div>
+        <div class="box box-8">
+            <img src=".//8.png" alt="">
+        </div>
+
+
+    </div>
+
+    <div class="footer-container">
+        &copy Gabrielle Cristina da Silva | Todos os direitos reservados
+    </div>
+
+
+
+
+    
+    
+</body>
+
+
+
+</html>
